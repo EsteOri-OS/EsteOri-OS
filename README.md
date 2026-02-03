@@ -1,16 +1,44 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**EsteOri-OS/EsteOri-OS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# EsteOri-OS
 
-Here are some ideas to get you started:
+[![Download Pack](https://img.shields.io/badge/Download-EsteOri--OS_Pack-blue?style=for-the-badge&logo=windows)](https://mega.nz/folder/KkZEiTAa#I1LJgvmhXKjUFbmNK7cjfw)
+[![Version](https://img.shields.io/badge/Version-Ultimate_Edition-green?style=for-the-badge)](https://github.com/YOUR_USERNAME/EsteOri-OS)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
+
+---
+
+## 📥 Installation Guide
+
+Follow these steps to flash **EsteOri-OS** to your USB drive correctly. The download pack includes everything you need.
+
+### **Step 1: Flash with Rufus**
+1.  Open the **EsteOri-OS** folder you downloaded.
+2.  Launch **`rufus-4.12.exe`** (included in the pack).
+3.  Click the **SELECT** button.
+4.  Navigate to the folder and select **`EsteOri-OS.iso`**.
+5.  Click **START**.
+    * *Wait for the progress bar to finish until it says "READY".*
+
+> **Optional Pro Tip:**
+> When you click START, Rufus may show a popup called "Windows User Experience."
+> * Check the box **"Create a local account with username"**.
+> * Type your desired name (e.g., `Ben`).
+> * This ensures your user is created automatically without Microsoft account requirements.
+
+---
+
+### **Step 2: Verify Your USB**
+Once finished, open your USB drive in File Explorer. It should look **exactly** like this:
+
+```text
+📂 boot
+📂 efi
+📂 sources
+📂 support
+📄 autorun.inf
+📄 bootmgr
+📄 bootmgr.efi
+⚙️ setup.exe
+📝 EsteOri-OS.reg
