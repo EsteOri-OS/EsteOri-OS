@@ -13,7 +13,7 @@ Follow these steps to flash **EsteOri-OS** to your USB drive correctly. The down
 
 ### **Step 1: Flash with Rufus**
 1.  Open the **EsteOri-OS** folder you downloaded.
-2.  Launch **`rufus-4.12.exe`** (included in the pack).
+2.  Launch **`rufus-4.12.exe`**
 3.  Click the **SELECT** button.
 4.  Navigate to the folder and select **`EsteOri-OS.iso`**.
 5.  Click **START**.
